@@ -65,7 +65,7 @@ export default function Home() {
   </form>
   <ul className="divide-y divide-gray-200 px-4">
     {data?.map((todo: TodoType) => (
-          <Todo key={todo.id} todo={todo} />
+          <Todo key={todo.id} todo={todo}/>
         ))}
   </ul>
 </div>
